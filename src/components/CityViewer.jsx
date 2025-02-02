@@ -52,6 +52,7 @@ const shuffleArray = (array) => {
 const CityViewer = () => {
   const [shuffledCities, setShuffledCities] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     // Shuffle cities when the component mounts
@@ -68,6 +69,7 @@ const CityViewer = () => {
       setIsTransitioning(true);
       setTimeout(() => {
         setCurrentIndex(currentIndex + 1);
+        setImageLoaded(false);
         setIsTransitioning(false);
       }, 300);
     }
@@ -78,6 +80,7 @@ const CityViewer = () => {
       setIsTransitioning(true);
       setTimeout(() => {
         setCurrentIndex(currentIndex - 1);
+        setImageLoaded(false);
         setIsTransitioning(false);
       }, 300);
     }
@@ -98,7 +101,12 @@ const CityViewer = () => {
                     </p>
                   ))}
                 </div>
-                <img src={currentCity.image} alt={currentCity.name} className="mt-6 w-full h-auto" />
+                <img 
+                  src={currentCity.image} 
+                  alt={currentCity.name} 
+                  className={`mt-6 w-full h-auto ${imageLoaded ? 'block' : 'hidden'}`} 
+                  onLoad={() => setImageLoaded(true)}
+                />
               </>
             ) : (
               <div>Loading...</div> // Loading state while cities are being shuffled
