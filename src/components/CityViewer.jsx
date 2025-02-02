@@ -134,6 +134,9 @@ const CityViewer = () => {
           </div>
         </div>
       </div>
+      <div className="text-right italic text-gray-500 mt-4">
+        Inspired by Italo Calvino's "Invisible Cities" and <a href="https://x.com/wilhelmscreamin" className="text-gray-600 hover:underline">@wilhelmscreamin</a>. Text by <a href="https://claude.ai/new" className="text-gray-600 hover:underline">Claude</a>, images by <a href="https://openai.com/index/dall-e-3/" className="text-gray-600 hover:underline">DALL·E</a>.
+      </div>
     </div>
   );
 };
