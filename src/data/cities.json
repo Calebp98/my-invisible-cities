@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Amarina",
+    "text": "In Amarina, all houses face inward. Visitors stumbling upon the city see only windowless walls of weathered stone, arranged in concentric circles that spiral toward the center. The inhabitants insist this design arose from necessity - in the age of great winds, they say, only inward-facing homes could withstand the gales. But the winds ceased generations ago, and still the people of Amarina build each new structure with its back to the world, its windows and doors opening only onto interior courtyards and covered passages that lead, inevitably, toward the city's heart.\n\nThose who dwell in the outermost ring claim they can hear music drifting from the center, though none can agree on its nature - some speak of bells, others of strings, still others of voices raised in song. The residents of the middle rings report no music, but instead describe the scent of gardens they have never seen. And those few who live in the innermost circle say nothing at all about what lies at the center, changing the subject when asked, though visitors note they seem to walk with an air of perpetual anticipation, as if always on the verge of witnessing something remarkable.",
+    "image": "amarina.webp"
+  },
+  {
+    "name": "Serafina",
+    "text": "In Serafina, time moves at different speeds in different quarters. The western district races forward so quickly that buildings rise and crumble in the space of a week, while in the eastern quarter, a single sunset has been slowly bleeding into night for the past decade. The city's inhabitants have adapted to these temporal variations with remarkable ingenuity. Merchants in the swift-moving west construct their shops from paper and bamboo, knowing anything more permanent would be a waste. Meanwhile, the eastern residents have learned to speak in glacially slow tones that stretch single syllables across days.\n\nThe central market, where all temporal streams meet and mingle, requires the most delicate navigation. Vendors must carefully position their stalls along the gradient between fast and slow time. Those selling perishables cluster toward the swifter west, while dealers in antiques and heirlooms establish themselves in the slower east. The most skilled merchants can balance their wares precisely on the temporal boundaries, so that fresh bread remains warm for weeks while wine ages to perfection in minutes.",
+    "image": "serafina.webp"
+  },
+  {
+    "name": "Chrysopolis",
+    "text": "In Chrysopolis, memory takes physical form. Each significant moment in the city's history manifests as a crystalline growth that sprouts from walls and streets. Joy forms delicate spires of rose quartz, while moments of collective grief create deep pools of obsidian. The inhabitants have learned to read these mineral memories like a language, teaching their children to distinguish between the milky selenite of first loves and the sharp amethyst of hard-won victories.\n\nThe city's archives are not kept in books but in vast geological gardens where historians tend to the growing crystals, carefully pruning away false memories (recognized by their hollow centers) and protecting the most precious recollections from erosion. The oldest memories, those from the city's founding, have grown so large and complex that they have become entire buildings, their faceted halls refracting ancient light. Some say that if you stand in the right spot within these crystal palaces, you can catch glimpses of the city's future, glinting darkly in the countless mirrored surfaces.\n\nEach new generation adds its own layer of crystalline memories to the city's architecture, until the line between building and memory, between infrastructure and history, becomes impossible to distinguish. Visitors often ask what will happen when the weight of accumulated memories grows too heavy for the city to bear. The inhabitants of Chrysopolis only smile and point to the network of deep fissures that run beneath the city - channels carved by the slow dissolution of painful memories, making space for new joys to crystallize.",
+    "image": "chrysopolis.webp"
+  },
+
+
+      {
+        "name": "Lumaria",
+        "text": "In Lumaria, light has weight. The inhabitants measure it in grams and ounces, trading parcels of morning sunshine wrapped in silk, or selling vials of starlight by the pound. The wealthiest citizens live in the highest towers, where the light is purest and heaviest, while in the lower streets people catch what falls, sifting through the day's remnants for fragments of dawn.\n\nThe city's famous light-weavers work in dark chambers, their fingers dancing as they pluck beams from the air and twist them into elaborate tapestries. These artisans are said to be able to tell a person's fortune by weighing their shadow. The city's central scales, massive golden instruments suspended between twin spires, measure the collective weight of each day's light, and the records are kept in ledgers bound in luminescent leather.",
+        "image": "lumaria.webp"
+      },
+      {
+        "name": "Chronopolis",
+        "text": "The inhabitants of Chronopolis measure distances in minutes rather than meters. A shop might be fifteen minutes from the square, but this measurement changes throughout the day as the city's temporal currents shift and eddy. The cartographers of Chronopolis draw their maps on clock faces, and visitors must learn to navigate by the position of the hands rather than compass points.\n\nThe most curious feature of Chronopolis is its markets, where merchants sell hours of youth, trade decades of memories, or auction off fragments of forgotten afternoons. The wealthy store time in crystalline hourglasses, saving it for moments of need, while the poor sometimes sell whole weeks of their lives to survive another month.",
+        "image": "chronopolis.webp"
+      },
+      {
+        "name": "Nebula",
+        "text": "Nebula is a city built of fog and dreams. Its buildings constantly reshape themselves according to the collective desires of its inhabitants. A theater might become a garden when enough people wish for open spaces, or a library might transform into a dance hall as the mood of the street shifts toward celebration.\n\nThe city's architects are actually psychologists, trained to read the subtle changes in the mist that signal the population's unconscious wants. They work through the night, when the fog is thickest and dreams are strongest, guiding the city's metamorphosis. Some say that Nebula isn't really a city at all, but rather the shared dream of all who believe they live there.",
+        "image": "nebula.webp"
+      },
+      {
+        "name": "Symmetria",
+        "text": "In Symmetria, everything must have its mirror. Each house has an identical twin across the central line that divides the city, each garden its perfect reflection. The inhabitants themselves participate in this doubling - for every baker in the eastern half, there must be a baker in the west, making precisely the same loaves at precisely the same moments.\n\nThe city's mathematicians spend their lives calculating the exact point of balance, for if the symmetry is broken, they believe, the whole city might fold in upon itself like a collapsing paper fan. Visitors often note how the citizens of Symmetria move in coordinated pairs, their gestures matched across the dividing line, though no law requires this - it is simply the way of things in a city where balance is everything.",
+        "image": "symmetria.webp"
+      },
+      {
+        "name": "Mnemonopolis",
+        "text": "The streets of Mnemonopolis are paved with memories. Each cobblestone contains a moment from the city's past, and those who walk barefoot can absorb these fragments of history through their soles. The city's historians are distinguished by their calloused feet, having walked every street countless times to absorb the full chronicle of their home.\n\nChildren play hopscotch games that teach them key dates in the city's timeline, and lovers meet at corners where particularly romantic memories are stored. The city council carefully curates which memories are permitted to be set in stone, and there is a thriving black market in cobblestones containing forbidden histories.",
+        "image": "mnemonopolis.webp"
+      },
+      {
+        "name": "Verticalia",
+        "text": "In Verticalia, there is no up or down. Buildings sprout in all directions like crystal formations, and its inhabitants walk on what others would call walls. Children are taught early to ignore their sense of gravity, and visitors must wear special goggles that scramble their vestibular sense until they can adapt to the city's peculiar geometry.\n\nThe city's mathematicians have proven that Verticalia exists in more dimensions than its neighbors, though no one can quite agree on how many. Markets and public squares occur at the intersections of gravity fields, where merchants can catch the attention of customers walking in three different directions at once.",
+        "image": "verticalia.webp"
+      },
+      {
+        "name": "Sonaria",
+        "text": "The buildings of Sonaria are grown from crystallized sound. The grandest boulevards are formed from frozen symphony orchestras, while humble alleyways might be made from whispered conversations or children's laughter. The city's architects are trained as musicians first, learning to shape sound waves into habitable spaces.\n\nEach building resonates with the sounds that formed it, releasing them slowly over centuries. Residents choose their homes based on the music they wish to wake to - a morning bird's song, perhaps, or the distant toll of temple bells. In times of trouble, the whole city can be made to ring like an enormous bell, though this is only done in the gravest emergencies, as each resonance ages the buildings by decades.",
+        "image": "sonaria.webp"
+      },
+      {
+        "name": "Bibliotropolis",
+        "text": "In Bibliotropolis, the buildings are made of books, their walls formed from carefully stacked volumes, their windows opening between pages. The city grows taller each year as new stories are written and added to the existing structures. Residents navigate using quotations rather than street names, and addresses are given in chapter and verse.\n\nThe city's archivists serve as both librarians and civil engineers, ensuring that the literary foundations remain strong. Romance novels are considered particularly stable building materials, while philosophical treatises are prone to sudden collapse when their arguments are disproven. The most prestigious homes are built from first editions, while the poor make do with paperbacks and pamphlets.",
+        "image": "bibliotropolis.webp"
+      },
+      {
+        "name": "Aquaria",
+        "text": "Aquaria is a city where water flows upward. Fountains spray downward into the earth, and rain rises from the ground to the clouds. The inhabitants have adapted to drink by holding their cups upside down, and umbrellas are pointed toward the ground to shield against the ascending storms.\n\nThe city's hydrologists are considered its most important officials, responsible for maintaining the delicate balance of water pressure that keeps the city's inverted rivers flowing. Gardens are planted on ceilings, their roots reaching up toward the water that falls upward from subterranean springs. Ships sail on vertical canals, their hulls specially designed to grip the water as it rushes skyward.",
+        "image": "aquaria.webp"
+      },
+      {
+        "name": "Phantasia",
+        "text": "In Phantasia, reality is a commodity, traded on the open market like any other good. Citizens can purchase extra dimensions for their homes, or invest in paradoxes that they hope will increase in value. The poor often sell their solid matter rights, becoming semi-transparent to save money.\n\nThe city's physics exchange is the largest building in the central square, where traders shout offers for laws of nature and bid on exceptional occurrences. A particularly desirable sunset might be worth a week of gravity, while the wealthy maintain private collections of impossible events. The city's regulations require that a certain amount of basic reality be maintained in public spaces, though enforcement is sporadic.",
+        "image": "phantasia.webp"
+      },
+      {
+        "name": "Metamorphia",
+        "text": "The buildings of Metamorphia are alive and constantly evolving. A house might begin its life as a simple cottage, then develop wings and turrets as its inhabitants' needs change. The city's architects are actually geneticists, carefully splicing different architectural DNA to create structures that will grow in desired ways.\n\nResidents must learn to anticipate their buildings' growth cycles, planning their lives around the periodic molting of walls and the germination of new rooms. The poorest citizens live in annual structures that bloom and wither within a year, while the wealthy inhabit ancient edifices that have evolved over centuries into forms as complex as coral reefs.",
+        "image": "metamorphia.webp"
+      },
+      {
+        "name": "Chromalia",
+        "text": "In Chromalia, colors are currency. Red is traded for blue, violet is considered more valuable than green, and a certain shade of sunset orange is worth a small fortune. The city's bankers are expert colorists, able to detect the slightest variation in hue that might affect its value.\n\nThe poor live in neighborhoods of muted tones, while the wealthy reside in streets of vibrant primaries. There is a thriving black market in synthetic colors, though these are considered counterfeit by the city's color exchange. Artists are among the wealthiest citizens, able to create new colors that become instant currency, while philosophers debate whether white is the sum of all wealth or the absence of value.",
+        "image": "chromalia.webp"
+      },
+      {
+        "name": "Rhythmopolis",
+        "text": "Every citizen of Rhythmopolis must maintain a precise rhythm as they move through the city. The wealthy walk in complex polyrhythms, while the poor keep simple time. City law requires all activities to be conducted in accordance with the Great Meter, a massive metronome in the central square that sets the city's tempo.\n\nBuildings are designed to resonate with their inhabitants' rhythms, and neighborhoods are zoned by time signature. Visitors often find themselves unconsciously falling into step with the city's beat, and those who cannot maintain rhythm are gently but firmly escorted to the arrhythmic quarter at the city's edge.",
+        "image": "rhythmopolis.webp"
+      },
+      {
+        "name": "Lexicon",
+        "text": "In Lexicon, words have physical form. They float through the air like leaves, accumulate in drifts against buildings, and must be cleared from the streets by municipal word sweepers. Citizens catch them in nets for use in conversation, or purchase them by weight from word merchants in the market.\n\nThe city's architecture is designed to create eddies where valuable words collect, and the wealthy position their homes to catch the best vocabulary. Universities maintain vast word reservoirs, while poets are employed by the city to release new words into the ecosystem. The poor make do with secondhand words, often worn so thin with use that their meanings have begun to fade.",
+        "image": "lexicon.webp"
+      },
+      {
+        "name": "Fractalia",
+        "text": "Each building in Fractalia contains a perfect miniature of the entire city, which in turn contains another miniature, and so on infinitely. Residents claim they can access any point in the city by diving deep enough into these recursive reflections, though visitors are warned not to attempt this without an experienced guide.\n\nThe city's mathematicians spend their lives calculating the optimal paths through these nested iterations, while philosophers debate whether Fractalia is infinitely large or infinitely small. Real estate is valued not by size but by depth - the number of clear iterations visible within a property.",
+        "image": "fractalia.webp"
+      },
+      {
+        "name": "Eternalia",
+        "text": "In Eternalia, time moves in a circle. Each day is lived countless times, though only the city's chronomancers retain memories of previous iterations. The inhabitants unknowingly perfect their routines through endless repetition, each circuit bringing them closer to an ideal they can never consciously know.\n\nThe city's architecture shows subtle signs of this temporal loop - wear patterns that form perfect spirals, gardens that grow in cyclical patterns, buildings whose stones have been polished by the same footsteps over countless iterations. Visitors often report a strange sense of déjà vu, as if they too have walked these streets before.",
+        "image": "eternalia.webp"
+      },
+      {
+        "name": "Botanopolis",
+        "text": "The citizens of Botanopolis share their bodies with carefully cultivated plants. Flowers bloom from their hair, vines twine along their arms, and their feet put down roots when they stand still for too long. The city's fashion designers are actually botanists, creating new hybrids for each season.\n\nStatus is measured by the rarity and beauty of one's personal flora, and the poor must make do with common weeds and grasses. The city's laws require all citizens to maintain a certain percentage of chlorophyll in their systems, and those who fail to thrive botanically are sent to special nurseries for rehabilitation.",
+        "image": "botanopolis.webp"
+      },
+      {
+        "name": "Numeropolis",
+        "text": "In Numeropolis, mathematics is visible in the air. Equations float by like clouds, theorems cascade down building facades, and children catch prime numbers in nets. The city's architects must ensure that each structure maintains perfect mathematical harmony with its surroundings, lest it dissolve into a chaos of undefined variables.\n\nThe wealthy live in neighborhoods of advanced calculus, while the poor make do with basic arithmetic. There is a thriving black market in illegal mathematics - forbidden equations and irrational numbers that promise to unlock the secrets of the universe. The city's police force consists entirely of logicians, trained to detect mathematical paradoxes that might threaten the city's fundamental constants.",
+        "image": "numeropolis.webp"
+      },
+      {
+        "name": "Melodia",
+        "text": "The streets of Melodia are paved with musical scales, each step producing a note that combines with all others being played throughout the city. Citizens must learn to walk in harmony with their neighbors, as dissonant combinations are forbidden by city ordinance. The wealthy commission private composers to create favorable paths to their doors.\n\nThe city's transit system is actually an enormous instrument, with each bus and train playing its part in an endless civic symphony. During festivals, the entire population moves in choreographed patterns, transforming the city into a vast musical performance. Those who consistently walk out of tune are relegated to the percussion district, where harmony is less critical.",
+        "image": "melodia.webp"
+      },
+      {
+        "name": "Oneiropolis",
+        "text": "In Oneiropolis, dreams are the only stable currency. Citizens sleep in special chambers that collect and store their dreams, which are then traded on the dream exchange. The value of a dream depends on its vividness, originality, and emotional resonance.\n\nProfessional dreamers are among the city's wealthiest residents, while those who sleep dreamlessly must subsist on charity. The city's architecture is designed to influence dreams, with certain buildings known to induce particularly valuable visions. There is constant debate about whether nightmares should be considered legal tender, as their value can fluctuate wildly and they're known to contaminate dream reserves.",
+        "image": "oneiropolis.webp"
+      }
+    ]
+  
