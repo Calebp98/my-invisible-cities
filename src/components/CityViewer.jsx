@@ -16,18 +16,7 @@ const imageMap = Object.fromEntries(
 const cities = citiesData; // Use citiesData directly
 
 const CityViewer = () => {
-  const [currentIndex, setCurrentIndex] = useState(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const cityName = urlParams.get('city');
-    
-    if (cityName) {
-      const index = cities.findIndex(city => 
-        city.name.toLowerCase() === cityName.toLowerCase()
-      );
-      return index !== -1 ? index : Math.floor(Math.random() * cities.length);
-    }
-    return Math.floor(Math.random() * cities.length);
-  });
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [imageLoaded, setImageLoaded] = useState(false);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [imageError, setImageError] = useState(false);
@@ -94,6 +83,16 @@ const CityViewer = () => {
         setIsTransitioning(false);
       }, 300);
     }
+  };
+
+  const goToRandomCity = () => {
+    const randomIndex = Math.floor(Math.random() * cities.length);
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setCurrentIndex(randomIndex);
+      setImageLoaded(false);
+      setIsTransitioning(false);
+    }, 300);
   };
 
   const LoadingSkeleton = () => (
@@ -175,9 +174,18 @@ const CityViewer = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="text-right italic text-gray-500 mt-4">
-        <p>Use arrow keys or swipe to navigate • Inspired by <a href="https://en.wikipedia.org/wiki/Invisible_Cities" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">Italo Calvino's "Invisible Cities"</a></p>
+
+        <div className="flex justify-between items-center text-gray-500 mt-4">
+          <button
+            onClick={goToRandomCity}
+            className="px-4 py-2 text-sm bg-gray-100 hover:bg-gray-200 rounded-full transition-colors"
+          >
+            Take me somewhere random
+          </button>
+          <p className="italic">
+            Inspired by <a href="https://en.wikipedia.org/wiki/Invisible_Cities" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">Italo Calvino's "Invisible Cities"</a>
+          </p>
+        </div>
       </div>
     </div>
   );
