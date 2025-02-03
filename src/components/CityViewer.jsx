@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import AmarinaImage from '../assets/images/amarina.webp';
-import SerafinaImage from '../assets/images/serafina.webp';
-import ChrysopolisImage from '../assets/images/chrysopolis.webp';
-import citiesData from '../data/cities.json'; // Import the JSON file
+import citiesData from '../data/cities.json';
+
+// Dynamically import all webp files from the images directory
+const images = import.meta.glob('../assets/images/*.webp', { eager: true });
+
+// Create image map from the dynamic imports
+const imageMap = Object.fromEntries(
+  Object.entries(images).map(([path, module]) => [
+    path.split('/').pop(), // Get just the filename
+    module.default
+  ])
+);
 
 const cities = citiesData; // Use citiesData directly
-
-// Create an image map to look up the imported images
-const imageMap = {
-  'amarina.webp': AmarinaImage,
-  'serafina.webp': SerafinaImage,
-  'chrysopolis.webp': ChrysopolisImage
-};
 
 // Function to shuffle an array
 const shuffleArray = (array) => {
@@ -30,8 +31,33 @@ const CityViewer = () => {
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
-    setShuffledCities(shuffleArray([...cities])); // Use cities directly
+    // Get city name from URL if it exists
+    const urlParams = new URLSearchParams(window.location.search);
+    const cityName = urlParams.get('city');
+    
+    const shuffled = shuffleArray([...cities]);
+    setShuffledCities(shuffled);
+
+    // If we have a city name in the URL, find its index
+    if (cityName) {
+      const index = shuffled.findIndex(city => 
+        city.name.toLowerCase() === cityName.toLowerCase()
+      );
+      if (index !== -1) {
+        setCurrentIndex(index);
+      }
+    }
   }, []);
+
+  // Update URL when current city changes
+  useEffect(() => {
+    if (shuffledCities.length > 0) {
+      const currentCity = shuffledCities[currentIndex];
+      const newUrl = new URL(window.location);
+      newUrl.searchParams.set('city', currentCity.name);
+      window.history.pushState({}, '', newUrl);
+    }
+  }, [currentIndex, shuffledCities]);
 
   const currentCity = shuffledCities[currentIndex];
 
