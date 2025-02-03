@@ -23,3 +23,15 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+.env
+logs/
+__pycache__/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuration files with sensitive data
+config.py
