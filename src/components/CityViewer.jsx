@@ -127,14 +127,15 @@ const CityViewer = () => {
                     <div className="absolute inset-0 bg-gray-100 animate-pulse"></div>
                   )}
                   <img 
-                    src={imageMap[currentCity.image]} 
-                    alt={`Illustration of ${currentCity.name}`}
-                    className={`w-full h-auto rounded-lg shadow-lg transition-opacity duration-300 ${
-                      imageLoaded ? 'opacity-100' : 'opacity-0'
-                    }`}
-                    onLoad={() => setImageLoaded(true)}
-                    onError={() => setImageError(true)}
-                  />
+  src={imageMap[currentCity.image]} 
+  alt={`Illustration of ${currentCity.name}`}
+  loading="lazy" // Enable lazy loading
+  className={`w-full h-auto rounded-lg shadow-lg transition-opacity duration-300 ${
+    imageLoaded ? 'opacity-100' : 'opacity-0'
+  }`}
+  onLoad={() => setImageLoaded(true)}
+  onError={() => setImageError(true)}
+/>
                   {imageError && (
                     <div className="mt-6 p-4 text-center text-red-600 bg-red-50 rounded">
                       Failed to load image
